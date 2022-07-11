@@ -32,6 +32,10 @@ section{
     display: table-cell;
     width: 33%;
 }
+div{
+    display: block;
+    width: max-content;
+}
 footer{
     background-color: rgb(236, 189, 217);
  
