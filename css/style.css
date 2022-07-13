@@ -25,6 +25,18 @@ details{
     font-weight: lighter;
     font-style: italic;
 }
+ul.counter{
+    list-style: none;
+  }
+  ul.counter li:before {
+  content: ''; 
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background: url(https://a.deviantart.net/avatars/y/u/yuyamama.png?5);
+  background-size: contain; 
+  margin: 1%;
+  }
 summary{
     font-style: normal;
 }
